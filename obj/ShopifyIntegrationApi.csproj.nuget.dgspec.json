@@ -1,24 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\WSFurnas\\Documents\\Programming\\shopify-sharp-studies\\ShopifySharpStudies\\ShopifySharpStudies.csproj": {}
+    "C:\\Users\\WSFurnas\\Documents\\Programming\\ShopifyIntegrationApi\\ShopifyIntegrationApi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\WSFurnas\\Documents\\Programming\\shopify-sharp-studies\\ShopifySharpStudies\\ShopifySharpStudies.csproj": {
+    "C:\\Users\\WSFurnas\\Documents\\Programming\\ShopifyIntegrationApi\\ShopifyIntegrationApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\WSFurnas\\Documents\\Programming\\shopify-sharp-studies\\ShopifySharpStudies\\ShopifySharpStudies.csproj",
-        "projectName": "ShopifySharpStudies",
-        "projectPath": "C:\\Users\\WSFurnas\\Documents\\Programming\\shopify-sharp-studies\\ShopifySharpStudies\\ShopifySharpStudies.csproj",
+        "projectUniqueName": "C:\\Users\\WSFurnas\\Documents\\Programming\\ShopifyIntegrationApi\\ShopifyIntegrationApi.csproj",
+        "projectName": "ShopifyIntegrationApi",
+        "projectPath": "C:\\Users\\WSFurnas\\Documents\\Programming\\ShopifyIntegrationApi\\ShopifyIntegrationApi.csproj",
         "packagesPath": "C:\\Users\\WSFurnas\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\WSFurnas\\Documents\\Programming\\shopify-sharp-studies\\ShopifySharpStudies\\obj\\",
+        "outputPath": "C:\\Users\\WSFurnas\\Documents\\Programming\\ShopifyIntegrationApi\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\WSFurnas\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net8.0"
+          "net9.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
@@ -26,8 +26,8 @@
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net8.0": {
-            "targetAlias": "net8.0",
+          "net9.0": {
+            "targetAlias": "net9.0",
             "projectReferences": {}
           }
         },
@@ -44,16 +44,24 @@
         "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
-        "net8.0": {
-          "targetAlias": "net8.0",
+        "net9.0": {
+          "targetAlias": "net9.0",
           "dependencies": {
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
-              "version": "[8.0.10, )"
+              "version": "[9.0.0-rc.2.24474.3, )"
             },
-            "Swashbuckle.AspNetCore": {
+            "ShopifySharp": {
               "target": "Package",
-              "version": "[6.6.2, )"
+              "version": "[6.19.0, )"
+            },
+            "Swashbuckle.AspNetCore.SwaggerGen": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Swashbuckle.AspNetCore.SwaggerUI": {
+              "target": "Package",
+              "version": "[7.0.0, )"
             }
           },
           "imports": [
